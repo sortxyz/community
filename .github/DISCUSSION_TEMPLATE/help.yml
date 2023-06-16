@@ -1,0 +1,19 @@
+body:
+- type: textarea
+  attributes:
+    label: Summary
+    description: Give a quick description of the problem.
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Example
+    description: Share a link to a minimal reproduction to show what is going wrong.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Steps to Reproduce
+    description: Let us know how we can replicate the problem. Please include code, error messages, screenshots, or any other detail needed to help us see exactly what is happening.
+  validations:
+    required: true
